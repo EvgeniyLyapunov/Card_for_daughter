@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <main>
+    <div class="best-of-the-best"></div>
+    <section class="show-selected-photo">
+      <div class="container show-selected-photo__container">
+        <h1 class="show-selected-photo__title">
+          Моё&nbsp;лучшее&nbsp;фото
+        </h1>
+        <div id="bestphoto" class="photo-form show-selected-photo__bestphoto"></div>
+        <button id="btnConfirm" class="show-selected-photo__btn-confirm">Подтвердить выбор</button>
+      </div>
+    </section>
+
+    <section class="selection-photo">
+      <div class="container selection-photo__container">
+        <h2 class="selection-photo__title">
+          Нужно выбрать:
+        </h2>
+        <div class="selection-photo__photos">
+          <ul class="selection-photo__list list-reset">
+            <li class="selection-photo__item">
+              <div class="photo-form selection-photo__back-one picture-back">
+                <div id="one" class="photo-form selection-photo__img-one selection-photo__img-transform "></div>
+              </div>
+              <button id="btn-one" class="btn">Выбрать</button>
+            </li>
+            <li class="selection-photo__item">
+              <div class="photo-form selection-photo__back-two picture-back">
+                <div class="photo-form selection-photo__img-two selection-photo__img-transform"></div>
+              </div>
+              <button id="btn-two" class="btn">Выбрать</button>
+            </li>
+            <li class="selection-photo__item">
+              <div class="photo-form selection-photo__back-three picture-back">
+                <div class="photo-form selection-photo__img-three selection-photo__img-transform"></div>
+              </div>
+              <button id="btn-three" class="btn">Выбрать</button>
+            </li>
+            <li class="selection-photo__item">
+              <div class="photo-form selection-photo__back-four picture-back">
+                <div class="photo-form selection-photo__img-four selection-photo__img-transform"></div>
+              </div>
+              <button id="btn-four" class="btn">Выбрать</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <span class="footer__copy">
+        Evgeniy&nbsp;Lyapunov&copy;
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
